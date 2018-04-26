@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1524760723 source:c:\users\huypv12\game_quan\xepginh\console.cpp
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	"console.h"
+
+1524760723 c:\users\huypv12\game_quan\xepginh\console.h
+	<windows.h>
+
+1524762986 source:c:\users\huypv12\game_quan\xepginh\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"ICreatBrick.h"
+
+1524762989 source:c:\users\huypv12\game_quan\xepginh\creatbrick.cpp
+	"ICreatBrick.h"
+
+1524763085 c:\users\huypv12\game_quan\xepginh\icreatbrick.h
+	"IMap.h"
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1524763112 c:\users\huypv12\game_quan\xepginh\imap.h
+	"console.h"
+	<iostream>
+
