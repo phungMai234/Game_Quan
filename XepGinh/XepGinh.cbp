@@ -35,10 +35,12 @@
 		<Unit filename="CreatBrick.cpp" />
 		<Unit filename="ICreatBrick.h" />
 		<Unit filename="IMap.h" />
+		<Unit filename="ImoveBrick.h" />
 		<Unit filename="Map.cpp" />
 		<Unit filename="console.cpp" />
 		<Unit filename="console.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="moveBrick.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
