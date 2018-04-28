@@ -36,7 +36,7 @@
 1524834542 c:\users\black\game_quan\xepginh\console.h
 	<windows.h>
 
-1524842275 source:c:\users\black\game_quan\xepginh\creatbrick.cpp
+1524886125 source:c:\users\black\game_quan\xepginh\creatbrick.cpp
 	"ICreatBrick.h"
 
 1524842275 c:\users\black\game_quan\xepginh\icreatbrick.h
@@ -45,11 +45,11 @@
 	<cstdlib>
 	<iostream>
 
-1524834542 c:\users\black\game_quan\xepginh\imap.h
+1524886125 c:\users\black\game_quan\xepginh\imap.h
 	"console.h"
 	<iostream>
 
-1524842299 source:c:\users\black\game_quan\xepginh\main.cpp
+1524885933 source:c:\users\black\game_quan\xepginh\main.cpp
 	<iostream>
 	<ctime>
 	<cstdlib>
@@ -59,12 +59,12 @@
 	"ImoveBrick.h"
 	"IMap.h"
 
-1524834542 source:c:\users\black\game_quan\xepginh\map.cpp
+1524886125 source:c:\users\black\game_quan\xepginh\map.cpp
 	"IMap.h"
 
-1524842180 source:c:\users\black\game_quan\xepginh\movebrick.cpp
+1524886125 source:c:\users\black\game_quan\xepginh\movebrick.cpp
 	"ImoveBrick.h"
 
-1524842180 c:\users\black\game_quan\xepginh\imovebrick.h
+1524886125 c:\users\black\game_quan\xepginh\imovebrick.h
 	"ICreatBrick.h"
 

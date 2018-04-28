@@ -7,7 +7,13 @@ void Draw()
     {
         for(j = TOP; j <= TOP + 18 + 1; j++) // hang
         {
-            if((j == TOP || j == TOP + 18 +1) && i > LEFT && i < LEFT + 10 + 1) // ve hang
+            if((j == TOP + 18 +1) && i > LEFT && i < LEFT + 10 + 1) // ve hang
+            {
+                gotoXY(i, j); // hoi
+                TextColor(7);
+                cout << char(205);
+            }
+            if((j == TOP ) && i > LEFT && i < LEFT + 10 + 1) // ve hang
             {
                 gotoXY(i, j); // hoi
                 TextColor(7);
@@ -41,3 +47,4 @@ void Draw()
     cout << char(219);
 
 }
+

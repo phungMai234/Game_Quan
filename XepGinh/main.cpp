@@ -19,18 +19,67 @@ int Board[MaxI][MaxJ];
 
 using namespace std;
 
-// xet dieu kien di chuyen mot vien gach
 
 int main()
 {
 
     Draw();
     int Id = Loai();
-    KhoiGach * curr;
-    curr = TaoKhoiGach(Id);
-    VeKhoiGach(curr);
-    char key;
-//    while(1)
+    KhoiGach * curr; // tao khoi gach
+    curr = TaoKhoiGach(Id); // random khoi gach
+    char key; // nhap tu ban phim
+    clock_t Start, End; // thoi gian chay
+
+    while(1)
+    {
+        VeKhoiGach(curr);
+        Start = clock();
+
+        do
+        {
+            if(kbhit())
+            {
+                key = _getch();
+
+                xoaKhoiGach(curr); //  ? moi xoa duoc mot phan
+
+                if(key == 'a' || key == 'A')
+                {
+                    turnLeft(curr);
+                }
+                if(key == 'd' || key == 'D')
+                {
+                    turnRight(curr);
+                }
+                if(key == 's' || key == 'S')
+                {
+                    goDown(curr);
+                }
+                if(key == 'w' || key == 'W')
+                {
+                    rotateObject(curr);
+                }
+
+                VeKhoiGach(curr);
+            }
+            End = clock();
+        }while(float(End - Start) < 1000);
+
+        xoaKhoiGach(curr);
+
+        if(goDown(curr) == false)
+        {
+            ganGiaTri(curr); // gan toa do khoi gach vua roi xuong cho bagn
+
+            Id = Loai();
+            curr = TaoKhoiGach(Id); // tao khoi gach xuat hien tiep theo
+            disPlayBoard(); // ve ma tran
+        }
+    }
+
+
+
+    //    while(1)
 //    {
 //        key = _getch();
 //        clrscr();
@@ -52,28 +101,6 @@ int main()
 //
 ////        Sleep(500);
 //    }
-
-    while(1)
-    {
-        key = _getch();
-        xoaKhoiGach(curr); //  ? moi xoa duoc mot phan
-        if(key == 'a' || key == 'A')
-        {
-            turnLeft(curr);
-        }
-        if(key == 'd' || key == 'D')
-        {
-            turnRight(curr);
-        }
-        if(key == 's' || key == 'S')
-        {
-            goDown(curr);
-        }
-
-        VeKhoiGach(curr);
-
-//        Sleep(500);
-    }
     gotoXY(30,25);
     return 0;
 }

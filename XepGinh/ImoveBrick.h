@@ -19,6 +19,11 @@ bool down(int , int);
 
 void turnLeft(KhoiGach*);
 void turnRight(KhoiGach*);
-void goDown(KhoiGach*);
+bool goDown(KhoiGach*);
+void rotateObject(KhoiGach*);
+
+
+void ganGiaTri(KhoiGach*);
+void disPlayBoard();
 
 #endif // IMOVEBRICK_H_INCLUDED
