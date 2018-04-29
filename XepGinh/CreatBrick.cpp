@@ -109,3 +109,13 @@ void xoaKhoiGach(KhoiGach* pKhoiGach)
         }
     }
 }
+void huyKhoiGach(KhoiGach* pKhoiGach)
+{
+    int i;
+
+    for(i = 0; i < pKhoiGach->Col; i++)
+        delete(pKhoiGach->arr[i]);
+    delete(pKhoiGach->arr);
+
+    pKhoiGach = NULL;
+}

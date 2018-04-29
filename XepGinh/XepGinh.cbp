@@ -35,8 +35,12 @@
 		<Unit filename="CreatBrick.cpp" />
 		<Unit filename="ICreatBrick.h" />
 		<Unit filename="IMap.h" />
+		<Unit filename="INFO.cpp" />
+		<Unit filename="INFO.h" />
+		<Unit filename="Icheck.h" />
 		<Unit filename="ImoveBrick.h" />
 		<Unit filename="Map.cpp" />
+		<Unit filename="check.cpp" />
 		<Unit filename="console.cpp" />
 		<Unit filename="console.h" />
 		<Unit filename="main.cpp" />

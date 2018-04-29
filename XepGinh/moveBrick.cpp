@@ -109,17 +109,17 @@ void rotateObject(KhoiGach* pKhoiGach) // hoi
         }
     }
 
-//    // kiem tra xem co xoay duoc khoi gach khong
-//    // k chay dc
-//    for(i = 0; i < tmpRow; i++)
-//    {
-//        for(j = 0; j < tmpCol; j++)
-//        {
-//            if(inside(pKhoiGach->iBoard + i, pKhoiGach->jBoard + j) == false || Board[pKhoiGach->iBoard + i][pKhoiGach->jBoard + j] == 1); // k hieu lam
-//                return;
-//        }
-//
-//    }
+    // kiem tra xem co xoay duoc khoi gach khong
+    // k chay dc
+    for(i = 0; i < tmpRow; i++)
+    {
+        for(j = 0; j < tmpCol; j++)
+        {
+            if(inside(pKhoiGach->iBoard + i, pKhoiGach->jBoard + j) == false || Board[pKhoiGach->iBoard + i][pKhoiGach->jBoard + j] == 1) // k hieu lam
+                return;
+        }
+
+    }
 
     // giai phong khoi gach trc khi xoay
 
@@ -134,39 +134,4 @@ void rotateObject(KhoiGach* pKhoiGach) // hoi
     pKhoiGach->arr = tmpArr;
 
 }
-void ganGiaTri(KhoiGach* pKhoiGach) // moi gan gia tri chuwa ve
-{
-    int i, j;
-    for(i = 0; i < pKhoiGach->Row; i++)
-    {
 
-        for(j = 0; j < pKhoiGach->Col; j++)
-        {
-            if(pKhoiGach->arr[i][j] == 1)
-                Board[pKhoiGach->iBoard + i][pKhoiGach->jBoard + j] = 1;
-        }
-    }
-}
-void disPlayBoard()
-{
-    int i, j;
-    for(i = 0; i < MaxI; i++)
-    {
-        for(j = 0; j < MaxJ; j++)
-        {
-            if(Board[i][j] == 1 && i > 4)
-            {
-
-                gotoXY(j + LEFT + 1, i + TOP + 1 - 4); // k hieu
-                TextColor(15);
-                cout << char(219);
-            }
-            if(Board[i][j] == 0)
-            {
-                gotoXY(j + LEFT + 1, i + TOP + 1 - 4);
-                TextColor(0);
-                cout << " ";
-            }
-        }
-    }
-}

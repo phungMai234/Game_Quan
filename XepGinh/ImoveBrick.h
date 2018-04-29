@@ -12,6 +12,7 @@
 
 extern int Board[MaxI][MaxJ];
 
+
 bool inside(int, int);
 bool left(int, int);
 bool right(int, int);
@@ -23,7 +24,6 @@ bool goDown(KhoiGach*);
 void rotateObject(KhoiGach*);
 
 
-void ganGiaTri(KhoiGach*);
-void disPlayBoard();
+
 
 #endif // IMOVEBRICK_H_INCLUDED

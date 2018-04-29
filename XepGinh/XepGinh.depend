@@ -49,7 +49,7 @@
 	"console.h"
 	<iostream>
 
-1524885933 source:c:\users\black\game_quan\xepginh\main.cpp
+1525007400 source:c:\users\black\game_quan\xepginh\main.cpp
 	<iostream>
 	<ctime>
 	<cstdlib>
@@ -58,13 +58,21 @@
 	"ICreatBrick.h"
 	"ImoveBrick.h"
 	"IMap.h"
+	"INFO.h"
 
 1524886125 source:c:\users\black\game_quan\xepginh\map.cpp
 	"IMap.h"
 
-1524886125 source:c:\users\black\game_quan\xepginh\movebrick.cpp
+1524902530 source:c:\users\black\game_quan\xepginh\movebrick.cpp
 	"ImoveBrick.h"
 
 1524886125 c:\users\black\game_quan\xepginh\imovebrick.h
 	"ICreatBrick.h"
+
+1524992192 source:c:\users\black\game_quan\xepginh\info.cpp
+	"INFO.h"
+
+1525008826 c:\users\black\game_quan\xepginh\info.h
+	<iostream>
+	"console.h"
 

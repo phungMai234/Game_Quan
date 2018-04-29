@@ -23,5 +23,7 @@ KhoiGach* TaoKhoiGach(int);
 int Loai();
 void VeKhoiGach(KhoiGach*);
 void xoaKhoiGach(KhoiGach*);
+void huyKhoiGach(KhoiGach*)
+
 
 #endif // ICREATBRICK_H_INCLUDED

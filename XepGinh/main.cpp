@@ -7,6 +7,8 @@
 #include"ICreatBrick.h"
 #include"ImoveBrick.h"
 #include"IMap.h"
+#include"INFO.h"
+#include"Icheck.h"
 
 #define MaxI 22
 #define MaxJ 10
@@ -17,7 +19,10 @@
 
 int Board[MaxI][MaxJ];
 
+
 using namespace std;
+
+
 
 
 int main()
@@ -27,11 +32,16 @@ int main()
     int Id = Loai();
     KhoiGach * curr; // tao khoi gach
     curr = TaoKhoiGach(Id); // random khoi gach
+
+    INFO info;  // khoi tao info ban dau
+    initGame(&info); // truyen info ban dau
+
     char key; // nhap tu ban phim
     clock_t Start, End; // thoi gian chay
 
     while(1)
     {
+        veBangDiem(info);
         VeKhoiGach(curr);
         Start = clock();
 
@@ -70,7 +80,10 @@ int main()
         if(goDown(curr) == false)
         {
             ganGiaTri(curr); // gan toa do khoi gach vua roi xuong cho bagn
-
+            int result = kiemTra(curr, &info);
+            if(result == -1)
+                break;
+            huyKhoiGach(curr);
             Id = Loai();
             curr = TaoKhoiGach(Id); // tao khoi gach xuat hien tiep theo
             disPlayBoard(); // ve ma tran
