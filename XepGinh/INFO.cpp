@@ -17,14 +17,4 @@ void update(INFO* info) // int
     }
 }
 
-void veBangDiem(INFO info)
-{
-    TextColor(10); // cai nay dung cho het ca dc a
-    gotoXY(LEFT + MaxJ + 4, TOP + 6);
-    cout << "SCORE: " << info.score << endl;
-    gotoXY(LEFT + MaxJ + 4, TOP + 7);
-    cout << "LEVEL: " << info.level << endl;
-    gotoXY(LEFT + MaxJ + 4, TOP + 8);
-    cout << "SPEED: " << info.speed << endl;
 
-}

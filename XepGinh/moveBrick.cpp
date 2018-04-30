@@ -17,14 +17,14 @@ bool left(int i, int j)
 }
 bool right(int i, int j)
 {
-    if( j < MaxJ - 1&& inside(i, j) == true && Board[i][j + 1] == 0)
+    if( j < MaxJ - 1&& inside(i, j) == true && Board[i][j + 1] == 0) // board
         return true;
     else
         return false;
 }
 bool down(int i, int j)
 {
-    if( i < MaxI - 1&& inside(i, j) == true && Board[i + 1][j] == 0)
+    if( i < MaxI - 1&& inside(i, j) == true && Board[i + 1][j] == 0) // board
         return true;
     else
         return false;

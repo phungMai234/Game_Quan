@@ -9,21 +9,12 @@
 #include"IMap.h"
 #include"INFO.h"
 #include"Icheck.h"
-
-#define MaxI 22
-#define MaxJ 10
-
-#define TOP 4
-#define LEFT 4
+#include"IveXoaKhoiGach.h"
 
 
 int Board[MaxI][MaxJ];
 
-
 using namespace std;
-
-
-
 
 int main()
 {
@@ -86,6 +77,7 @@ int main()
             huyKhoiGach(curr);
             Id = Loai();
             curr = TaoKhoiGach(Id); // tao khoi gach xuat hien tiep theo
+
             disPlayBoard(); // ve ma tran
         }
     }

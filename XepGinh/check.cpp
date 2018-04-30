@@ -1,7 +1,6 @@
 
 #include"Icheck.h"
 
-
 int kiemTra(KhoiGach* pKhoiGach, INFO* info)
 {
     int i, j, countB = 0;
@@ -29,52 +28,12 @@ int kiemTra(KhoiGach* pKhoiGach, INFO* info)
     }
     return 1;
 }
-void ganGiaTri(KhoiGach* pKhoiGach) // moi gan gia tri chuwa ve
+
+void huyKhoiGach(KhoiGach* pKhoiGach)
 {
-    int i, j;
+
+    int i;
     for(i = 0; i < pKhoiGach->Row; i++)
-    {
-
-        for(j = 0; j < pKhoiGach->Col; j++)
-        {
-            if(pKhoiGach->arr[i][j] == 1)
-                Board[pKhoiGach->iBoard + i][pKhoiGach->jBoard + j] = 1;
-        }
-    }
-}
-void disPlayBoard()
-{
-    int i, j;
-    for(i = 0; i < MaxI; i++)
-    {
-        for(j = 0; j < MaxJ; j++)
-        {
-            if(Board[i][j] == 1 && i > 4)
-            {
-
-                gotoXY(j + LEFT + 1, i + TOP + 1 - 4); // k hieu
-                TextColor(15);
-                cout << char(219);
-            }
-            if(Board[i][j] == 0 && i >= 4)
-            {
-                gotoXY(j + LEFT + 1, i + TOP + 1 - 4);
-                TextColor(0);
-                cout << " ";
-            }
-        }
-    }
-}
-void updateGame(int  row)
-{
-    int i, j;
-    // hàng bat dau tu 4 -> 22
-    for(i = row; i > 0; i--) // > 4 hay > 0, tinh ca o ngoai bang a
-    {
-        for(j = 0; j < MaxJ; j++)
-        {
-            Board[i][j] = Board[i - 1][j];
-        }
-    }
-
+        delete(pKhoiGach->arr[i]);
+    delete(pKhoiGach->arr);
 }

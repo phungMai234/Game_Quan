@@ -22,6 +22,6 @@ struct INFO
 
 void initGame(INFO*);
 void update(INFO*);
-void veBangDiem(INFO);
+
 
 #endif // INFO_H_INCLUDED

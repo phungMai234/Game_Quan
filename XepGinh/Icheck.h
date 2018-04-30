@@ -3,19 +3,9 @@
 
 #include"ImoveBrick.h"
 #include"INFO.h"
+#include"IMap.h"
 
-//#define MaxI 22
-//#define MaxJ 10
-//
-//#define TOP 4
-//#define LEFT 4
-//
-//
-//extern int Board[MaxI][MaxJ];
 
 int kiemTra(KhoiGach*, INFO*);
-void ganGiaTri(KhoiGach*);
-void disPlayBoard();
-void updateGame(int);
-
+void huyKhoiGach(KhoiGach*);
 #endif // ICHECK_H_INCLUDED

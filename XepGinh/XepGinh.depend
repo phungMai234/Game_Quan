@@ -33,23 +33,25 @@
 	<conio.h>
 	"console.h"
 
-1524834542 c:\users\black\game_quan\xepginh\console.h
+1525076474 c:\users\black\game_quan\xepginh\console.h
 	<windows.h>
 
-1524886125 source:c:\users\black\game_quan\xepginh\creatbrick.cpp
+1525074841 source:c:\users\black\game_quan\xepginh\creatbrick.cpp
 	"ICreatBrick.h"
 
-1524842275 c:\users\black\game_quan\xepginh\icreatbrick.h
-	"IMap.h"
+1525074841 c:\users\black\game_quan\xepginh\icreatbrick.h
+	"console.h"
 	<ctime>
 	<cstdlib>
 	<iostream>
 
-1524886125 c:\users\black\game_quan\xepginh\imap.h
+1525093016 c:\users\black\game_quan\xepginh\imap.h
 	"console.h"
+	"INFO.h"
+	"ICreatBrick.h"
 	<iostream>
 
-1525007400 source:c:\users\black\game_quan\xepginh\main.cpp
+1525094062 source:c:\users\black\game_quan\xepginh\main.cpp
 	<iostream>
 	<ctime>
 	<cstdlib>
@@ -59,20 +61,37 @@
 	"ImoveBrick.h"
 	"IMap.h"
 	"INFO.h"
+	"Icheck.h"
+	"IveXoaKhoiGach.h"
 
-1524886125 source:c:\users\black\game_quan\xepginh\map.cpp
+1525077417 source:c:\users\black\game_quan\xepginh\map.cpp
 	"IMap.h"
 
-1524902530 source:c:\users\black\game_quan\xepginh\movebrick.cpp
+1525076473 source:c:\users\black\game_quan\xepginh\movebrick.cpp
 	"ImoveBrick.h"
 
-1524886125 c:\users\black\game_quan\xepginh\imovebrick.h
+1525076537 c:\users\black\game_quan\xepginh\imovebrick.h
 	"ICreatBrick.h"
 
-1524992192 source:c:\users\black\game_quan\xepginh\info.cpp
+1525074841 source:c:\users\black\game_quan\xepginh\info.cpp
 	"INFO.h"
 
-1525008826 c:\users\black\game_quan\xepginh\info.h
+1525074841 c:\users\black\game_quan\xepginh\info.h
 	<iostream>
 	"console.h"
+
+1525094062 source:c:\users\black\game_quan\xepginh\check.cpp
+	"Icheck.h"
+
+1525094062 c:\users\black\game_quan\xepginh\icheck.h
+	"ImoveBrick.h"
+	"INFO.h"
+	"IMap.h"
+
+1525078448 c:\users\black\game_quan\xepginh\ivexoakhoigach.h
+	<iostream>
+	"ICreatBrick.h"
+
+1525078448 source:c:\users\black\game_quan\xepginh\vexoakhoigach.cpp
+	"IveXoaKhoiGach.h"
 

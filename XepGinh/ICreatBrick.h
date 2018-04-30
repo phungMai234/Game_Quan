@@ -1,16 +1,16 @@
 #ifndef ICREATBRICK_H_INCLUDED
 #define ICREATBRICK_H_INCLUDED
 
-#include"IMap.h"
+#include"console.h" // de goi consol
 
-#include<ctime>
-#include<cstdlib>
+#include<ctime> // random time
+#include<cstdlib> // radom time
 #include<iostream>
 
 #define TOP 4
 #define LEFT 4
 
-using namespace std;
+using namespace std; // co cout
 
 struct KhoiGach
 {
@@ -21,9 +21,7 @@ struct KhoiGach
 
 KhoiGach* TaoKhoiGach(int);
 int Loai();
-void VeKhoiGach(KhoiGach*);
-void xoaKhoiGach(KhoiGach*);
-void huyKhoiGach(KhoiGach*)
+
 
 
 #endif // ICREATBRICK_H_INCLUDED
