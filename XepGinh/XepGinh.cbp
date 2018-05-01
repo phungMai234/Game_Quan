@@ -38,14 +38,16 @@
 		<Unit filename="INFO.cpp" />
 		<Unit filename="INFO.h" />
 		<Unit filename="Icheck.h" />
-		<Unit filename="ImoveBrick.h" />
+		<Unit filename="Imenu.h" />
+		<Unit filename="ImoveObject.h" />
 		<Unit filename="IveXoaKhoiGach.h" />
 		<Unit filename="Map.cpp" />
 		<Unit filename="check.cpp" />
 		<Unit filename="console.cpp" />
 		<Unit filename="console.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="moveBrick.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="moveObject.cpp" />
 		<Unit filename="veXoaKhoiGach.cpp" />
 		<Extensions>
 			<code_completion />

@@ -32,13 +32,43 @@ void xoaKhoiGach(KhoiGach* pKhoiGach)
         }
     }
 }
-//void huyKhoiGach(KhoiGach* pKhoiGach)
-//{
-//    int i;
-//
-//    for(i = 0; i < pKhoiGach->Col; i++)
-//        delete(pKhoiGach->arr[i]);
-//    delete(pKhoiGach->arr);
-//
-//    pKhoiGach = NULL;
-//}
+
+void Ve_Next(int ID)
+{
+    KhoiGach *pnext=TaoKhoiGach(ID);
+
+    int iRoot=LEFT+MaxJ + 5;
+    int jRoot=TOP + 1;
+    for(int i=0;i<pnext->Row;i++)
+    {
+        for (int j=0;j<pnext->Col;j++)
+        {
+            if(pnext->arr[i][j]==1)
+            {
+                TextColor(15);
+                gotoXY(iRoot+j,jRoot+i);
+                cout << char(219);
+            }
+        }
+
+    }
+    huyKhoiGach(pnext);
+}
+void Xoa_Next()
+{
+    int iRoot=LEFT+MaxJ+5;
+    int jRoot=TOP + 1;
+    for(int i=0;i<4;i++)
+    {
+        for (int j=0;j<4;j++)
+        {
+
+                TextColor(0);
+                gotoXY(iRoot+j,jRoot+i);
+                cout << " "; // chú ý in ra dấu cách
+        }
+
+    }
+}
+
+

@@ -1,5 +1,5 @@
 
-#include"ImoveBrick.h"
+#include"ImoveObject.h"
 
 bool inside(int i, int j)
 {
@@ -30,7 +30,7 @@ bool down(int i, int j)
         return false;
 }
 
-void turnLeft(KhoiGach* pKhoiGach)
+void moveLeftObject(KhoiGach* pKhoiGach)
 {
     int i, j;
     for(i = 0; i < pKhoiGach->Row; i++)
@@ -48,7 +48,7 @@ void turnLeft(KhoiGach* pKhoiGach)
     pKhoiGach->jBoard--;
 }
 
-void turnRight(KhoiGach* pKhoiGach)
+void moveRightObject(KhoiGach* pKhoiGach)
 {
     int i, j;
     for(i = 0; i < pKhoiGach->Row; i++)
@@ -65,7 +65,7 @@ void turnRight(KhoiGach* pKhoiGach)
     }
     pKhoiGach->jBoard++;
 }
-bool goDown(KhoiGach* pKhoiGach)
+bool moveDownObject(KhoiGach* pKhoiGach)
 {
     int i, j;
     for(i = 0; i < pKhoiGach->Row; i++)
@@ -124,8 +124,8 @@ void rotateObject(KhoiGach* pKhoiGach) // hoi
     // giai phong khoi gach trc khi xoay
 
     for(i = 0; i < pKhoiGach->Row; i++)
-        delete(pKhoiGach->arr[i]);
-    delete(pKhoiGach->arr);
+        delete [] pKhoiGach->arr[i];
+    delete [] pKhoiGach->arr;
 
     // cap nhat thay doi sau khi xoay
 

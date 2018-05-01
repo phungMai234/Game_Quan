@@ -1,6 +1,8 @@
 #include"IMap.h"
 
-void Draw()
+// ham ve ra khung man hinh
+
+void render()
 {
     int i, j;
     for(i = LEFT; i <= LEFT + 10 + 1; i++) // cot

@@ -10,6 +10,9 @@
 #define TOP 4
 #define LEFT 4
 
+#define MaxI 22
+#define MaxJ 10
+
 using namespace std; // co cout
 
 struct KhoiGach

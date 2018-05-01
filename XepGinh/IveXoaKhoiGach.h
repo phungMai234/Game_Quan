@@ -5,10 +5,21 @@
 #include"ICreatBrick.h" // goi ham tao khoi gach
 // #include"console.h" // ham ve mau khoi gach
 
-using namespace std; // ham su dung cout
+#include"Icheck.h"
 
+using namespace std; // ham su dung cout
+// ham ve khoi gach de choi
 void VeKhoiGach(KhoiGach*);
 void xoaKhoiGach(KhoiGach*);
-//void huyKhoiGach(KhoiGach*)
+
+void Ve_Next(int);
+void Xoa_Next();
+
+// ham ve khoi gach de hien thi cacs khoi gach toep theo
+
+// giai phong khoi gach
+
+
+
 
 #endif // IVEXOAKHOIGACH_H_INCLUDED

@@ -10,7 +10,7 @@ void initGame(INFO* info)
 void update(INFO* info) // int
 {
     info->score+=100;
-    if(info->score >= 1000)
+    if(info->score == 1000) // giai quyet cap do diem nay
     {
         info->level++;
         info->speed-=0.1;
