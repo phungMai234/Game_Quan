@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="XepGinh" />
+		<Option title="Big_Project" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/XepGinh" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Big_Project" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/XepGinh" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Big_Project" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -33,27 +33,32 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="IMap.h" />
-		<Unit filename="INFO.cpp" />
-		<Unit filename="INFO.h" />
-		<Unit filename="Icheck.h" />
-		<Unit filename="Iconsole.h" />
-		<Unit filename="IdesignObject.h" />
-		<Unit filename="IdrawObject.h" />
+		<Unit filename="INFO_game.cpp" />
+		<Unit filename="IPlayer.h" />
+		<Unit filename="I_INFO_game.h" />
+		<Unit filename="IdiChuyenKhoiGach.h" />
 		<Unit filename="Imenu.h" />
-		<Unit filename="ImoveObject.h" />
+		<Unit filename="IstructKhoiGach.h" />
+		<Unit filename="Istruct_INFO.h" />
+		<Unit filename="ItaoKhoiGach.h" />
+		<Unit filename="IthaoTacVoiKhoiGach.h" />
 		<Unit filename="Map.cpp" />
-		<Unit filename="check.cpp" />
+		<Unit filename="Player.cpp" />
 		<Unit filename="console.cpp" />
-		<Unit filename="designObject.cpp" />
-		<Unit filename="drawObject.cpp" />
+		<Unit filename="console.h" />
+		<Unit filename="diChuyenKhoiGach.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.cpp" />
-		<Unit filename="moveObject.cpp" />
+		<Unit filename="structKhoiGach.cpp" />
+		<Unit filename="struct_INFO.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="taoKhoiGach.cpp" />
+		<Unit filename="thaoTacVoiKhoiGach.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
-			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

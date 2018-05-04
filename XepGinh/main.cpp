@@ -4,12 +4,12 @@
 #include<windows.h>
 #include<conio.h>
 
-#include"ICreatBrick.h"
+#include"IdesignObject.h"
 #include"ImoveObject.h"
 #include"IMap.h"
 #include"INFO.h"
 #include"Icheck.h"
-#include"IveXoaKhoiGach.h"
+#include"IdrawObject.h"
 #include"Imenu.h"
 
 

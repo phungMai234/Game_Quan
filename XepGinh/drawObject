@@ -65,7 +65,7 @@ void Xoa_Next()
 
                 TextColor(0);
                 gotoXY(iRoot+j,jRoot+i);
-                cout << " "; // chú ý in ra dấu cách
+                cout << " ";
         }
 
     }

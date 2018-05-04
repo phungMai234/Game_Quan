@@ -1,5 +1,6 @@
 #ifndef IMENU_H_INCLUDED
 #define IMENU_H_INCLUDED
+#include "Iconsole.h"
 
 #include<iostream> // cout
 

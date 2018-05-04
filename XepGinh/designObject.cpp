@@ -1,5 +1,5 @@
 
-#include"ICreatBrick.h"
+#include"IdesignObject.h"
 
 KhoiGach* TaoKhoiGach(int ID)
 {
@@ -43,7 +43,7 @@ KhoiGach* TaoKhoiGach(int ID)
 
     return pKhoiGach; // khieu con tro
 }
-int Loai()
+int randomObject()
 {
 
     srand(time(NULL));

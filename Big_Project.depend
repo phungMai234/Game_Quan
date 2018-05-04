@@ -1,0 +1,221 @@
+# depslib dependency file v1.0
+1443331591 source:c:\users\black\desktop\big_project\console.cpp
+	<stdio.h>
+	<conio.h>
+	"console.h"
+
+1522568840 c:\users\black\desktop\big_project\console.h
+	<windows.h>
+
+1524731473 source:c:\users\black\game\big_project\console.cpp
+	<stdio.h>
+	<conio.h>
+	"console.h"
+
+1524110989 c:\users\black\game\big_project\console.h
+	<windows.h>
+
+1524816758 source:c:\users\black\game\big_project\main.cpp
+	<iostream>
+	"console.h"
+	"IstructKhoiGach.h"
+	"ItaoKhoiGach.h"
+	"Imenu.h"
+	"Istruct_INFO.h"
+	"I_INFO_game.h"
+	"IdiChuyenKhoiGach.h"
+	"IhienThithongTinGame.h"
+	"IMap.h"
+	"IthaoTacVoiKhoiGach.h"
+	"IPlayer.h"
+
+1523339682 source:c:\users\black\game\big_project\drawmap.cpp
+
+1523450508 source:c:\users\black\game\big_project\moveblock.cpp
+	"MoveBlock.h"
+
+1524111307 c:\users\black\game\big_project\moveblock.h
+
+1524111307 c:\users\black\game\big_project\taokhoigach.h
+
+1524111307 c:\users\black\game\big_project\drawmap.h
+
+1524317568 source:c:\users\black\game\big_project\structkhoigach.cpp
+	"IstructKhoiGach.h"
+
+1524538029 c:\users\black\game\big_project\istructkhoigach.h
+
+1524317741 c:\users\black\game\big_project\itaokhoigach.h
+	"IstructKhoiGach.h"
+
+1524738321 source:c:\users\black\game\big_project\taokhoigach.cpp
+	"ItaoKhoiGach.h"
+	<ctime>
+	<conio.h>
+	<windows.h>
+
+1524400821 c:\users\black\game\big_project\imenu.h
+
+1524731473 source:c:\users\black\game\big_project\menu.cpp
+	"Imenu.h"
+	<iostream>
+	<conio.h>
+
+1524550691 c:\users\black\game\big_project\istruct_info.h
+
+1524550354 c:\users\black\game\big_project\i_info_game.h
+	"Istruct_INFO.h"
+
+1524813875 source:c:\users\black\game\big_project\info_game.cpp
+	<iostream>
+	"I_INFO_game.h"
+
+1524816636 c:\users\black\game\big_project\idichuyenkhoigach.h
+	"ItaoKhoiGach.h"
+
+1524731473 source:c:\users\black\game\big_project\dichuyenkhoigach.cpp
+	"IdiChuyenKhoiGach.h"
+
+1524645204 c:\users\black\game\big_project\ihienthithongtingame.h
+	"Istruct_INFO.h"
+	"I_INFO_game.h"
+	"console.h"
+	"IstructKhoiGach.h"
+	"ItaoKhoiGach.h"
+	"IdiChuyenKhoiGach.h"
+
+1524731472 source:c:\users\black\game\big_project\thongtincapdodiemlevel.cpp
+	<iostream>
+	"IthongtinCapDoDiemLevel.h"
+
+1524731261 c:\users\black\game\big_project\ithongtincapdodiemlevel.h
+	"I_INFO_game.h"
+	"IstructKhoiGach.h"
+	"Istruct_INFO.h"
+	"ItaoKhoiGach.h"
+	"console.h"
+
+1524816785 c:\users\black\game\big_project\imap.h
+	<iostream>
+	"console.h"
+
+1524816125 c:\users\black\game\big_project\ithaotacvoikhoigach.h
+	<iostream>
+	"IMap.h"
+	"ItaoKhoiGach.h"
+
+1524815618 source:c:\users\black\game\big_project\map.cpp
+	"IMap.h"
+
+1524815514 source:c:\users\black\game\big_project\thaotacvoikhoigach.cpp
+	"IthaoTacVoiKhoiGach.h"
+
+1524816636 c:\users\black\game\big_project\iplayer.h
+	<iostream>
+	"IdiChuyenKhoiGach.h"
+	"IthaoTacVoiKhoiGach.h"
+	"I_INFO_game.h"
+	<windows.h>
+	<stdint-gcc.h>
+	<cstdlib>
+	<ctime>
+	<conio.h>
+
+1524844740 source:c:\users\black\game\big_project\player.cpp
+	"IPlayer.h"
+
+1525182557 source:c:\users\black\game_quan\console.cpp
+	<stdio.h>
+	<conio.h>
+	"console.h"
+
+1525182557 c:\users\black\game_quan\console.h
+	<windows.h>
+
+1525182557 source:c:\users\black\game_quan\dichuyenkhoigach.cpp
+	"IdiChuyenKhoiGach.h"
+
+1525182557 c:\users\black\game_quan\idichuyenkhoigach.h
+	"ItaoKhoiGach.h"
+
+1525182557 c:\users\black\game_quan\itaokhoigach.h
+	"IstructKhoiGach.h"
+
+1525182557 c:\users\black\game_quan\istructkhoigach.h
+
+1525182557 source:c:\users\black\game_quan\info_game.cpp
+	<iostream>
+	"I_INFO_game.h"
+
+1525182557 c:\users\black\game_quan\i_info_game.h
+	"Istruct_INFO.h"
+
+1525182557 c:\users\black\game_quan\istruct_info.h
+
+1525182557 source:c:\users\black\game_quan\main.cpp
+	<iostream>
+	"console.h"
+	"IstructKhoiGach.h"
+	"ItaoKhoiGach.h"
+	"Imenu.h"
+	"Istruct_INFO.h"
+	"I_INFO_game.h"
+	"IdiChuyenKhoiGach.h"
+	"IhienThithongTinGame.h"
+	"IMap.h"
+	"IthaoTacVoiKhoiGach.h"
+	"IPlayer.h"
+
+1525182557 c:\users\black\game_quan\imenu.h
+
+1525182557 c:\users\black\game_quan\ihienthithongtingame.h
+	"Istruct_INFO.h"
+	"I_INFO_game.h"
+	"console.h"
+	"IstructKhoiGach.h"
+	"ItaoKhoiGach.h"
+	"IdiChuyenKhoiGach.h"
+
+1525182557 c:\users\black\game_quan\imap.h
+	<iostream>
+	"console.h"
+
+1525182557 c:\users\black\game_quan\ithaotacvoikhoigach.h
+	<iostream>
+	"IMap.h"
+	"ItaoKhoiGach.h"
+
+1525182557 c:\users\black\game_quan\iplayer.h
+	<iostream>
+	"IdiChuyenKhoiGach.h"
+	"IthaoTacVoiKhoiGach.h"
+	"I_INFO_game.h"
+	<windows.h>
+	<stdint-gcc.h>
+	<cstdlib>
+	<ctime>
+	<conio.h>
+
+1525182557 source:c:\users\black\game_quan\map.cpp
+	"IMap.h"
+
+1525182557 source:c:\users\black\game_quan\menu.cpp
+	"Imenu.h"
+	<iostream>
+	<conio.h>
+
+1525182557 source:c:\users\black\game_quan\player.cpp
+	"IPlayer.h"
+
+1525182557 source:c:\users\black\game_quan\structkhoigach.cpp
+	"IstructKhoiGach.h"
+
+1525182557 source:c:\users\black\game_quan\taokhoigach.cpp
+	"ItaoKhoiGach.h"
+	<ctime>
+	<conio.h>
+	<windows.h>
+
+1525182557 source:c:\users\black\game_quan\thaotacvoikhoigach.cpp
+	"IthaoTacVoiKhoiGach.h"
+

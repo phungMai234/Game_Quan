@@ -7,7 +7,7 @@
 #include"ImoveObject.h"
 #include"INFO.h"
 #include"IMap.h"
-#include"IveXoaKhoiGach.h"
+#include"IdrawObject.h"
 
 int kiemTra(KhoiGach*, INFO*);
 void huyKhoiGach(KhoiGach*);

@@ -5,7 +5,7 @@ int kiemTra(KhoiGach* pKhoiGach, INFO* info)
 {
     int i, j, countB = 0;
 
-    if(pKhoiGach->iBoard == 3) // xet tung khoi gach xem cham ma tran
+    if(pKhoiGach->iBoard <= 4) // xet tung khoi gach xem cham ma tran
         return -1;
 
     for(i = 0; i < MaxI; i++)
@@ -43,12 +43,12 @@ bool ingameSence()
 
     render(); // ve khung game
 
-    int Id = Loai();
+    int Id = randomObject();
     KhoiGach * curr; // tao khoi gach
 
     curr = TaoKhoiGach(Id); // random khoi gach
 
-    int IDKhoiTiepTheo = Loai();
+    int IDKhoiTiepTheo = randomObject();
 
     INFO info;  // khoi tao info ban dau
     initGame(&info); // truyen info ban dau
@@ -73,13 +73,14 @@ bool ingameSence()
 
                 xoaKhoiGach(curr);
 
-                if( key == 'a' || key == 'A') // van bi loi
+                if( key == 'a' || key == 'A' || key == 75) // van bi loi
                     moveLeftObject(curr);
-                if( key == 'd' || key == 'D')
+                if( key == 'd' || key == 'D' || key == 77)
                     moveRightObject(curr);
-                if( key == 's' || key == 'S')
+                if( key == 's' || key == 'S' || key == 80)
+
                     moveDownObject(curr);
-                if( key == 'w' || key == 'W')
+                if( key == 'w' || key == 'W' || key == 72)// no k dung khi over game, k hien ra ten ng choi
                     rotateObject(curr);
 
 
@@ -103,7 +104,7 @@ bool ingameSence()
             huyKhoiGach(curr); // giai phong bo nho
 
             curr = TaoKhoiGach(IDKhoiTiepTheo);
-            IDKhoiTiepTheo = Loai();// tao khoi gach xuat hien tiep theo
+            IDKhoiTiepTheo = randomObject();// tao khoi gach xuat hien tiep theo
 
 
         }

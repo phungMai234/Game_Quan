@@ -3,7 +3,7 @@
 
 #include<iostream>
 
-#include"console.h"
+#include "Iconsole.h"
 
 #define MaxI 22
 #define MaxJ 10

@@ -27,13 +27,13 @@
 	"console.h"
 	<iostream>
 
-1524834542 source:c:\users\black\game_quan\xepginh\console.cpp
+1525364728 source:c:\users\black\game_quan\xepginh\console.cpp
 	<iostream>
 	<stdio.h>
 	<conio.h>
-	"console.h"
+	"Iconsole.h"
 
-1525076474 c:\users\black\game_quan\xepginh\console.h
+1525186374 c:\users\black\game_quan\xepginh\console.h
 	<windows.h>
 
 1525164437 source:c:\users\black\game_quan\xepginh\creatbrick.cpp
@@ -45,24 +45,24 @@
 	<cstdlib>
 	<iostream>
 
-1525161446 c:\users\black\game_quan\xepginh\imap.h
-	"console.h"
+1525411423 c:\users\black\game_quan\xepginh\imap.h
+	"Iconsole.h"
 	"INFO.h"
-	"ICreatBrick.h"
+	"IdesignObject.h"
 	<iostream>
 
-1525181509 source:c:\users\black\game_quan\xepginh\main.cpp
+1525364621 source:c:\users\black\game_quan\xepginh\main.cpp
 	<iostream>
 	<ctime>
 	<cstdlib>
 	<windows.h>
 	<conio.h>
-	"ICreatBrick.h"
+	"IdesignObject.h"
 	"ImoveObject.h"
 	"IMap.h"
 	"INFO.h"
 	"Icheck.h"
-	"IveXoaKhoiGach.h"
+	"IdrawObject.h"
 	"Imenu.h"
 
 1525164437 source:c:\users\black\game_quan\xepginh\map.cpp
@@ -77,38 +77,59 @@
 1525158923 source:c:\users\black\game_quan\xepginh\info.cpp
 	"INFO.h"
 
-1525074841 c:\users\black\game_quan\xepginh\info.h
+1525364757 c:\users\black\game_quan\xepginh\info.h
 	<iostream>
-	"console.h"
+	"Iconsole.h"
 
-1525181509 source:c:\users\black\game_quan\xepginh\check.cpp
+1525411423 source:c:\users\black\game_quan\xepginh\check.cpp
 	"Icheck.h"
 
-1525181587 c:\users\black\game_quan\xepginh\icheck.h
+1525364215 c:\users\black\game_quan\xepginh\icheck.h
 	<conio.h>
 	"ImoveObject.h"
 	"INFO.h"
 	"IMap.h"
-	"IveXoaKhoiGach.h"
+	"IdrawObject.h"
 
-1525164437 c:\users\black\game_quan\xepginh\ivexoakhoigach.h
+1525186139 c:\users\black\game_quan\xepginh\ivexoakhoigach.h
 	<iostream>
 	"ICreatBrick.h"
 	"Icheck.h"
 
-1525164689 source:c:\users\black\game_quan\xepginh\vexoakhoigach.cpp
+1525186139 source:c:\users\black\game_quan\xepginh\vexoakhoigach.cpp
 	"IveXoaKhoiGach.h"
 
-1525161986 c:\users\black\game_quan\xepginh\imoveobject.h
-	"ICreatBrick.h"
+1525411423 c:\users\black\game_quan\xepginh\imoveobject.h
+	"IdesignObject.h"
 
 1525164636 source:c:\users\black\game_quan\xepginh\moveobject.cpp
 	"ImoveObject.h"
 
-1525167030 source:c:\users\black\game_quan\xepginh\menu.cpp
+1525270885 source:c:\users\black\game_quan\xepginh\menu.cpp
 	"Imenu.h"
 
-1525166999 c:\users\black\game_quan\xepginh\imenu.h
+1525364728 c:\users\black\game_quan\xepginh\imenu.h
+	"Iconsole.h"
 	<iostream>
 	<conio.h>
+
+1525411423 c:\users\black\game_quan\xepginh\idrawobject.h
+	<iostream>
+	"IdesignObject.h"
+	"Icheck.h"
+
+1525411423 c:\users\black\game_quan\xepginh\idesignobject.h
+	"Iconsole.h"
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1525364215 source:c:\users\black\game_quan\xepginh\drawobject.cpp
+	"IdrawObject.h"
+
+1525411423 source:c:\users\black\game_quan\xepginh\designobject.cpp
+	"IdesignObject.h"
+
+1525186374 c:\users\black\game_quan\xepginh\iconsole.h
+	<windows.h>
 
